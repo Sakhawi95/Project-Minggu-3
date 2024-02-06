@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * { 
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+   
+    
+    body > div {
+        width: 100%;
+    }
+
+    #header {
+        background-color: #2A2C2E;
+        border-radius: 20px;
+        height: 96px;
+        padding: 20px 24px;
+        align-items: center;
+        justify-content: start;
+    }
+
+    #body {
+        border-radius: 20px;
+        background-color: #2A2C2E;
+        gap: 28px;
+        padding: 32px 40px;
+    }
+
+    .Tittlemain {
+        
+        max-width: 268px;
+        height: 28px;
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 400;
+        letter-spacing: 0cm;
+        color: #FFFFFF;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+
+    }
+    
+    div > #listdlmform {
+        border: 2px solid red;
+    }
+
+    #listdlmform {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 711px;
+        height: 946px;
+        text-align: left;
+    }
+
+
+
+    #socialmedia {
+        flex-wrap: wrap;
+        padding: 20px 24px;
+        background-color: #2A2C2E;
+        align-items: center;
+       
+    }
+
+    .condition {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 500px;
+        gap: 20px;
+        
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 263px;
+        gap: 20px;
+
+    }
+
+    @media (max-width: 460px) {
+
+        #terms { 
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        #socialmedia {
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+    }
+
+
+</style>
+
+<body style="display: flex;flex-direction:column;align-items: center; gap: 20px;padding: 24px 24px 0px; min-height: 100vh;">
+    
+    <div id="header" style="display: flex; flex-direction: row; max-width: 1200px;">
+        <img src="Logo.png" alt="Big Bookshelf"></div>
+       
+    </div>
+
+
+    <div id="body" style="display: flex; flex-direction: column;flex-grow: 1;max-width: 1200px;">
+        
+        <div class="Tittlemain">REGISTER YOUR BOX</div>
+
+        <div id="listdlmform">
+
+            <div style="display: flex; flex-direction: columns; flex-wrap: wrap; max-width: 711px;gap: 12px;">
+                <div style="font: size 20px; font-weight: 400; color: #FFFFFF; height: 24px;">Book Details</div>
+                <div style="max-width: 680px;margin-top: 8px;"><hr style="width: 610px;"></div>
+            </div>
+
+            <div>
+                <form method="get"> 
+                <label for="Title">Title</label>
+                <input type="text" name="Title">
+                </form>
+
+                <form method="get"> 
+                <label for="Title">Title</label>
+                <input type="text" name="Title">
+                 </form>
+
+                <form method="get"> 
+                <label for="Title">Title</label>
+                <input type="text" name="Title">
+                </form>
+
+                <form method="get"> 
+                <label for="Title">Title</label>
+                <input type="text" name="Title">
+                </form>
+
+                <form method="get"> 
+                <label for="Title">Title</label>
+                <input type="text" name="Title">
+                </form>
+
+                <form method="get"> 
+                <label for="Title">Title</label>
+                <input type="text" name="Title">
+                </form>
+
+                <form method="get"> 
+                <label for="Title">Title</label>
+                <input type="text" name="Title">
+                </form>
+
+                <form method="get"> 
+                <label for="Title">Title</label>
+                <input type="text" name="Title">
+                </form>
+            </div>
+
+            <div style="display: flex; flex-direction: columns; flex-wrap: wrap; max-width: 711px;gap: 12px;">
+                <div style="font: size 20px; font-weight: 400; color: #FFFFFF; height: 24px;">Registree Details</div>
+                <div style="max-width: 680px;margin-top: 8px;"><hr style="width: 584px;"></div>
+            </div>
+
+            <div>
+                <form method="get"> 
+                <label for="Title">Title</label>
+                <input type="text" name="Title">
+                </form>
+
+                <form method="get"> 
+                <label for="Title">Title</label>
+                <input type="text" name="Title">
+                 </form>
+
+                <form method="get"> 
+                <label for="Title">Title</label>
+                <input type="text" name="Title">
+                </form>
+
+                <form method="get"> 
+                <label for="Title">Title</label>
+                <input type="text" name="Title">
+                </form>
+            </div>  
+             
+
+
+
+        </div>
+    </div>   
+
+    <div id="footer" style="display: flex; flex-direction: column; max-width: 1248px; height: 128px;">
+        <div id="socialmedia" style="display: flex; flex-direction: row; justify-content: space-between;">
+
+            <div id="img" style="max-width: 204px; height: 48px;"> <img src="Logo.png" alt="Big Bookshelf"></div>
+            <div id="media" style="max-width: 104px; height: 24px;"><img src="Social media.png" alt="social media"> </div>
+
+        </div>
+
+        <div id="terms" style="display: flex; flex-direction: row; justify-content: space-between; background-color: #000000DE; padding: 12px 24px; height: 40px;">
+
+            <nav class="condition">
+                <div>
+                <a href="#" data-active="true" style="color: #FFFFFF; text-decoration: none; font-size: 12px;font-weight: 400; line-height: 16px; letter-spacing: 0.15%;">Terms and Conditions</a>
+                </div>
+                <div>
+                <a href="#" data-active="true" style="color: #FFFFFF; text-decoration: none; font-size: 12px;font-weight: 400; line-height: 16px; letter-spacing: 0.15%;">Privacy</a>
+                </div>
+            </nav>
+
+            <nav class="contact" style="display: flex; flex-direction: row; justify-content: space-between; ">
+                <div>
+                <a href="#" data-active="true" style="font-family: 'Inter'; font-size: 12px; font-weight: 400; text-align: left; letter-spacing: 0.15%; color: #FFFFFF; text-decoration: none;">+44 1332 412251</a>
+                </div>
+                <div>
+                <a href="#" data-active="true" style="font-family: 'Inter'; font-size: 12px; font-weight: 400; text-align: left; letter-spacing: 0.15%; color: #FFFFFF; text-decoration: none;"> support@bbookshelf.com</a>
+                 </div>
+            
+            
+            </nav>
+
+        </div>
+
+       
+
+    </div>
+
+</body>
+</html>
